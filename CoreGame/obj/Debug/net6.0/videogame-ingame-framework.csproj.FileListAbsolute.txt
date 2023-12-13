@@ -1,0 +1,12 @@
+D:\GitHub\videogame-ingame-framework\bin\Debug\net6.0\videogame-ingame-framework.deps.json
+D:\GitHub\videogame-ingame-framework\bin\Debug\net6.0\videogame-ingame-framework.dll
+D:\GitHub\videogame-ingame-framework\bin\Debug\net6.0\videogame-ingame-framework.pdb
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.csproj.AssemblyReference.cache
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.AssemblyInfoInputs.cache
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.AssemblyInfo.cs
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.csproj.CoreCompileInputs.cache
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.dll
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\refint\videogame-ingame-framework.dll
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\videogame-ingame-framework.pdb
+D:\GitHub\videogame-ingame-framework\obj\Debug\net6.0\ref\videogame-ingame-framework.dll

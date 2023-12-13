@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <Authors>Leonhard Senkel</Authors>
+    <Company>Leonhard Senkel</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageDescription>A basic implementation for a system that manages metadata about a game, such as the current game time.</PackageDescription>
+    <PackageId>Senkel.VideoGame.Metadata</PackageId>
+    <RepositoryUrl>https://github.com/Leknes/videogame-system</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Senkel.Unity.API" Version="0.1.0" />
+  </ItemGroup>
+
+</Project>
