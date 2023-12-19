@@ -22,6 +22,7 @@ public sealed class SettingConverter : JsonConverter<IReadOnlyDictionary<string,
     /// Pairs the names of the settings to the type of the corresponding setting value.
     /// </summary>
     public IReadOnlyDictionary<string, Type>? Definition;
+     /// <inheritdoc/>
      
     public override IReadOnlyDictionary<string, object> ReadJson(JsonReader reader, Type objectType, IReadOnlyDictionary<string, object>? existingValue, bool hasExistingValue, JsonSerializer serializer)
     {
@@ -67,7 +68,8 @@ public sealed class SettingConverter : JsonConverter<IReadOnlyDictionary<string,
 
         return settingDictionary;
     }
-     
+
+    /// <inheritdoc/>
     public override void WriteJson(JsonWriter writer, IReadOnlyDictionary<string, object>? value, JsonSerializer serializer)
     {  
         if (value == null)

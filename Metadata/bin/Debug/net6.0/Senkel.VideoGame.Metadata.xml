@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senkel.VideoGame.Metadata</name>
+    </assembly>
+    <members>
+        <member name="T:Senkel.VideoGame.Metadata.VideoGameMetadata">
+            <summary>
+            Represents the metadata of the game including the current play time of the game as well as an integer that indicates the progress status of the game.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Senkel.VideoGame.Metadata.VideoGameMetadata.PlayTime" -->
+        <member name="M:Senkel.VideoGame.Metadata.VideoGameMetadata.#ctor(System.TimeSpan,Senkel.Model.Measuring.IStopwatch)">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.VideoGame.Metadata.VideoGameMetadata"/> class that has the initially set play time as well as the specified progress status.
+            </summary> 
+            <param name="playtime">The initial play time captured in the metadata.</param>
+            <param name="stopwatch">The stopwatch to use for counting elapsed play time.</param>
+        </member>
+        <member name="M:Senkel.VideoGame.Metadata.VideoGameMetadata.#ctor(Senkel.Model.Measuring.IStopwatch)">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.VideoGame.Metadata.VideoGameMetadata"/> class that has the initial <see cref="P:Senkel.VideoGame.Metadata.VideoGameMetadata.PlayTime"/> value set to <see cref="F:System.TimeSpan.Zero"/>.
+            </summary>
+            <param name="stopwatch">The stopwatch to use for counting elapsed play time.</param>
+        </member>
+        <member name="M:Senkel.VideoGame.Metadata.VideoGameMetadata.StartRecording">
+            <summary>
+            Starts or resumes recording the play time of the metadata using the initially set <see cref="T:Senkel.Model.Measuring.IStopwatch"/> object.
+            </summary>
+        </member>
+        <member name="M:Senkel.VideoGame.Metadata.VideoGameMetadata.StopRecording">
+            <summary>
+            Pauses the recording of the play time of the metadata.
+            </summary>
+        </member>
+    </members>
+</doc>

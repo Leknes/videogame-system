@@ -15,7 +15,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Senkel.Unity.API" Version="0.1.0" />
+    <Reference Include="Senkel.Model.Measuring">
+      <HintPath>..\..\Model\Measuring\bin\Debug\net6.0\Senkel.Model.Measuring.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

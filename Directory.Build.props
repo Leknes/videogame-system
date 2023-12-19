@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+				<RepositoryUrl>https://github.com/Leknes/videogame-system</RepositoryUrl>
+    </PropertyGroup>
+</Project>
+
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />

@@ -15,7 +15,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Senkel.ObjectModel.Rendering" Version="1.0.0" />
+    <Reference Include="Senkel.Model.Rendering">
+      <HintPath>..\..\..\Model\Rendering\bin\Debug\net6.0\Senkel.Model.Rendering.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 

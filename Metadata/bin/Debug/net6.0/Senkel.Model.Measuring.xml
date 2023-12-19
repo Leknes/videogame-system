@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senkel.Model.Measuring</name>
+    </assembly>
+    <members>
+        <member name="T:Senkel.Model.Measuring.IReadOnlyStopwatch">
+            <summary>
+            Represents a stopwatch that exposes the measured time, but does not grant access to manipulating the stopwatch.
+            </summary>
+        </member>
+        <member name="P:Senkel.Model.Measuring.IReadOnlyStopwatch.Elapsed">
+            <summary>
+            How much time has been measured by the stopwatch.
+            </summary>
+        </member>
+        <member name="P:Senkel.Model.Measuring.IReadOnlyStopwatch.Running">
+            <summary>
+            Indicates if the stopwatch is currently running.
+            </summary>
+        </member>
+        <member name="T:Senkel.Model.Measuring.IStopwatch">
+            <summary>
+            Represents a stopwatch that can be started, stopped and reset.
+            </summary>
+        </member>
+        <member name="M:Senkel.Model.Measuring.IStopwatch.Start">
+            <summary>
+            Starts or resumes the measurement of the stopwatch.
+            </summary>
+        </member>
+        <member name="M:Senkel.Model.Measuring.IStopwatch.Stop">
+            <summary>
+            Stops the measurement of the stopwatch, but should not reset the elapsed time.
+            </summary>
+        </member>
+        <member name="M:Senkel.Model.Measuring.IStopwatch.Reset">
+            <summary>
+            Stops the measurement of the stopwatch and resets the elapsed time.
+            </summary>
+        </member>
+        <member name="M:Senkel.Model.Measuring.IStopwatch.Restart">
+            <summary>
+            Resets the elapsed time and restarts the stopwatch.
+            </summary>
+        </member>
+        <member name="T:Senkel.Model.Measuring.StopwatchAdapter">
+            <summary>
+            Represents an adapter that implements the <see cref="T:Senkel.Model.Measuring.IStopwatch"/> interface based on an <see cref="T:System.Diagnostics.Stopwatch"/> object.
+            </summary>
+        </member>
+        <member name="M:Senkel.Model.Measuring.StopwatchAdapter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Senkel.Model.Measuring.StopwatchAdapter"/> class that is based on a new <see cref="T:System.Diagnostics.Stopwatch"/> instance.
+            </summary>
+        </member>
+        <member name="M:Senkel.Model.Measuring.StopwatchAdapter.#ctor(System.Diagnostics.Stopwatch)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Senkel.Model.Measuring.StopwatchAdapter"/> class that is based the specified stopwatch.
+            </summary>
+        </member>
+        <member name="P:Senkel.Model.Measuring.StopwatchAdapter.Elapsed">
+            <inheritdoc/>
+        </member>
+        <member name="P:Senkel.Model.Measuring.StopwatchAdapter.Running">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.Model.Measuring.StopwatchAdapter.Reset">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.Model.Measuring.StopwatchAdapter.Restart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.Model.Measuring.StopwatchAdapter.Start">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.Model.Measuring.StopwatchAdapter.Stop">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

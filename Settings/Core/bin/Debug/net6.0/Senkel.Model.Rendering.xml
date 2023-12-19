@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senkel.Model.Rendering</name>
+    </assembly>
+    <members>
+        <member name="T:Senkel.Model.Rendering.IdentityRenderer`1">
+            <summary>
+            Represents a renderer that always returns the initially set identity value without any modification.
+            </summary>
+            <typeparam name="T">The type of the identity value to render.</typeparam>
+        </member>
+        <member name="M:Senkel.Model.Rendering.IdentityRenderer`1.#ctor(`0)">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.Model.Rendering.IdentityRenderer`1"/> class that returns the specified value in the <see cref="M:Senkel.Model.Rendering.IRenderer`1.Render"/> method.
+            </summary>
+            <param name="identity">The value to return in the <see cref="M:Senkel.Model.Rendering.IRenderer`1.Render"/> method.</param>
+        </member>
+        <member name="T:Senkel.Model.Rendering.IRenderer`1">
+            <summary>
+            Represents an object that is capable of rendering an image of the specified type.
+            </summary>
+            <typeparam name="T">The type of the image object to be created.</typeparam>
+        </member>
+        <member name="M:Senkel.Model.Rendering.IRenderer`1.Render">
+            <summary>
+            Returns an image object that represents the current state of the rendered object.
+            </summary>
+        </member>
+    </members>
+</doc>
