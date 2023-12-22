@@ -1,6 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Diagnostics.CodeAnalysis;
+using System.Collections.Generic;
+using System;
 
 namespace Senkel.VideoGame.Settings.Serialization;
 

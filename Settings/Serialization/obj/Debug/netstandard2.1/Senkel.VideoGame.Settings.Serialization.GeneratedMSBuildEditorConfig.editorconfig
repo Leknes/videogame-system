@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Senkel.VideoGame.Settings.Serialization
+build_property.ProjectDir = D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5h7/e4xvvQQXhAKVaYkcRwK7YkP1gUBqFSYe2aP8fIB4tBy/7mTFQ11A4gc4U6PChLVuWN06wVek0L6RoHRllw==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\C#\\Senkel\\VideoGame\\Settings\\Serialization\\Senkel.VideoGame.Settings.Serialization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leonhard\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

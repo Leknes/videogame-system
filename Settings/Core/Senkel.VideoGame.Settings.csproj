@@ -1,24 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <OutputType>Library</OutputType>
     <PackageId>Senkel.VideoGame.Settings</PackageId>
-    <Authors>Leonhard Senkel</Authors>
-    <Company>Leonhard Senkel</Company>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageDescription>An easy to use API for video game settings like framerate limit, language or aspect ratio.</PackageDescription>
-    <RepositoryUrl>https://github.com/Leknes/videogame-system</RepositoryUrl>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Senkel.Model.Rendering">
-      <HintPath>..\..\..\Model\Rendering\bin\Debug\net6.0\Senkel.Model.Rendering.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\Core\Rendering\Senkel.Core.Rendering.csproj" />
   </ItemGroup>
-
-
+ 
 </Project>

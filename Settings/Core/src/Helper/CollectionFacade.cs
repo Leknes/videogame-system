@@ -1,5 +1,8 @@
 using System.Collections;
 using System.Reflection;
+using System;
+using System.Linq; 
+
 
 namespace Senkel.VideoGame.Settings;
 
@@ -45,7 +48,7 @@ public abstract class CollectionFacade<T> : IReadOnlyCollection<T> where T : cla
 
         bool TryGetFieldSetting(FieldInfo fieldInfo, out T? setting)
         {
-            bool isSetting = fieldInfo.FieldType.IsAssignableTo(type);
+            bool isSetting = type.IsAssignableFrom(fieldInfo.FieldType);
 
             if (isSetting)
                 setting = (T?)fieldInfo.GetValue(this);
@@ -56,8 +59,8 @@ public abstract class CollectionFacade<T> : IReadOnlyCollection<T> where T : cla
         }
 
         bool TryGetPropertySetting(PropertyInfo propertyInfo, out T? setting)
-        {
-            bool isType = propertyInfo.PropertyType.IsAssignableTo(type);
+        { 
+            bool isType = type.IsAssignableFrom(propertyInfo.PropertyType);
 
             if (isType)
                 setting = (T?)propertyInfo.GetValue(this);

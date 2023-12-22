@@ -6,7 +6,7 @@ namespace Senkel.VideoGame.Settings;
 /// <summary>
 /// Generates a dictionary containing every important information about the settings on demand based on a given <see cref="SettingManager"/> class.
 /// </summary>
-public sealed class SettingRenderer : Model.Rendering.IRenderer<IReadOnlyDictionary<string, object>>
+public sealed class SettingRenderer : IRenderer<IReadOnlyDictionary<string, object>>
 {
     private readonly SettingManager _manager;
 

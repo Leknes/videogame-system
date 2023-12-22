@@ -1,0 +1,15 @@
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.csproj.AssemblyReference.cache
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.AssemblyInfoInputs.cache
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.AssemblyInfo.cs
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.sourcelink.json
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\bin\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.deps.json
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\bin\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.dll
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\bin\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.pdb
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\bin\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.xml
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.dll
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\refint\Senkel.VideoGame.Settings.Serialization.dll
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.xml
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\Senkel.VideoGame.Settings.Serialization.pdb
+D:\Programming\C#\Senkel\VideoGame\Settings\Serialization\obj\Debug\net8.0\ref\Senkel.VideoGame.Settings.Serialization.dll
